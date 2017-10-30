@@ -7,7 +7,7 @@
 	
 }
  #white{
-	background-color: white;
+	background-color: lightgrey;
 	height: 117px;
 	width: 100%;
  	 
@@ -142,6 +142,7 @@ body{
 /* page 2 contact*/
 
 			.words{
+				color:#4aaaa5;
 				position: relative;
 				right:360px;
 				}
@@ -259,6 +260,9 @@ body{
 		hr{
 			width: 90%;
 		}
+		#hr2{
+			width: 90%
+		}
 		
 		/*bout pg */
 		
@@ -275,6 +279,19 @@ body{
 			width:90%;
 		}
 
+		/* contact*/
+
+		.words{
+			position: relative;
+			left:0px;
+			}
+		.form{
+			width:90%;
+		}
+
+		#message{
+		width:90%;
+		}
 		/* portfolio pg */
 		
 
@@ -306,5 +323,60 @@ body{
 			right:-77px;
 			width: 350px;
 		}
+
+}
+
+@media screen and (max-width:768px) and (min-width:640px){
+/* page at 768px*/
+	#white{
+		height: 106px;
+	}
+	header{
+		margin-left: 35px;
+		width:45%;
+		font-size: 40px;
+	}
+	.links{
+		position: relative;
+		left:240px;
+		top:-70px;
+	}
+	section{
+		width:90%;
+		position: relative;
+		left:37px;
+		bottom:30px;
+	}
+	aside{
+		position: relative;
+		left:37px;
+		top:0px;
+		width:90%;
+		}
+
+	h1{
+		position: relative;
+		right:30px;
+	}
+
+	hr{
+		width:90%;
+	}
+	h2{
+		font-size: 20px;
+	}
+	#hr2{
+		width: 90%;
+	}
+/*about pg*/
+	
+	#me{
+		float: left;
+
+		}
+	#para{
+		
+	}
+	
 
 }
