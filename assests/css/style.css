@@ -21,7 +21,7 @@ header{
 		padding: 30px;
 		font-size: 50px;
 		margin-left: 120px;
-		color: white;
+		color: lightgrey;
 		width:30%;
 
 
@@ -35,7 +35,7 @@ header{
 			top:-85px;
 			left:450px;
 			text-decoration: none;
-			color:grey;
+			color:#4aaaa5;
 			border-right: 1px solid grey;
 		}
 
@@ -55,7 +55,7 @@ body{
 		
 		section{
 
-			background: white;
+			background: lightgrey;
 			position: relative;
 			left:120px;
 			width:1000px;
@@ -81,7 +81,7 @@ body{
 
 
 		aside{
-			background-color: white;
+			background-color: lightgrey;
 			width: 360px;
 			position: relative;
 			top:-730px;
@@ -209,7 +209,7 @@ body{
 /* 10/28 Media Queries */
 
 
-/*portfolio page at 640px */
+/* page at 640px */
 @media screen and (max-width:640px){
   	#white{
   		position: relative;
@@ -226,29 +226,57 @@ body{
   		position: relative;
   		left:-20px;
   		top:-5px;
-  		background: white;
+  		background: grey;
   		padding-left:70px;
   		padding-right: 70px;
   	}
   
-  }
-
-
-	section{
+  	section{
 		position: relative;
 		left:60px;
 		width:80%;
-		height: 1420px;
+		height: 100%;		
 	}
+		
+	aside{
+		position: relative;
+		top:10px;
+		left:60px;
+		width:80%;
+	}
+
+	footer{
+		position: relative;
+		top:10px;
+	}	
 
 		h1{
 			position: relative;
 			left:10px;
+			font-size: 44px;
 		}
 
 		hr{
 			width: 90%;
 		}
+		
+		/*bout pg */
+		
+		#me{
+			width: 90%;
+			margin-left: 375px;
+			height:400px;
+		}
+		
+		#para{
+			position: relative;
+			left:20px;
+			top:10px;
+			width:90%;
+		}
+
+		/* portfolio pg */
+		
 
 		#dunes{
 			position: relative;
@@ -278,15 +306,5 @@ body{
 			right:-77px;
 			width: 350px;
 		}
-	
-	aside{
-		position: relative;
-		top:20px;
-		left:60px;
-		width:80%;
-	}
 
-	footer{
-		position: relative;
-		top:10px;
-	}
+}
