@@ -172,7 +172,7 @@ body{
 
 
  /*Portfolio Page 3*/
-
+			
 
 			#dunes{
 				position: absolute;
@@ -369,14 +369,68 @@ body{
 		width: 90%;
 	}
 /*about pg*/
-	
-	#me{
-		float: left;
 
-		}
+		
 	#para{
+		position: relative;
+		left:30px;
 		
 	}
+	#me{
+		width:250px;
+		height: 250px;
+		float:right;
+		margin: 0px 0px 0px 0px
+	}
 	
+	/*contact page*/
+	.words{
+		position: relative;
+		right:240px;
+	}
 
+	.form{
+		width:80%;
+	}
+
+	#message{
+		width:80%;
+
+	}
+	/* portfolio*/
+
+	img{
+		width:300px;
+		height:250px;
+
+	}
+	#dunes{
+		position: absolute;
+		left:30px;
+	}
+
+	#miata{
+		position: absolute;
+		left:320px;
+		
+
+	}
+	#gf{
+		position: absolute;
+		bottom:20px;
+
+	}
+	
+	#dawson{
+		position: absolute;
+		bottom: 20px;
+		left:320px;
+	}
+
+	h3{
+		position: relative;
+		left:0px;
+		width:301px;
+	}
 }
+	
