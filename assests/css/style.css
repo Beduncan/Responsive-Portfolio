@@ -13,6 +13,7 @@
 		font-family:Georgia;
 		background-color: #4aaaa5;
 		padding: 30px;
+		text-align: center;
 		font-size: 50px;
 		margin-left: 60px;
 		color: lightgrey;
@@ -34,6 +35,10 @@
 		}
 	li{
 		display: inline;
+		border-right: 1px solid black
+	}
+	li:last-child{
+		border-right:none;
 	}
 	
 body{ 
@@ -146,7 +151,6 @@ body{
 				background-color: #4aaaa5;
     			color: white;
     			padding: 15px 32px;
-    			text-align: center;
     			font-size: 16px;
     			}
 
@@ -158,8 +162,7 @@ body{
 				float: left;
 				margin-left: 50px;
 				margin-bottom: 10px;
-				max-width: 400px;
-				min-width: 400px;
+				min-width:400px;
 				height:auto;
 				}
 			.dunes{
@@ -240,37 +243,58 @@ body{
 /* page at 640px */
 @media screen and (max-width:640px){
   	#white{
-  		position: relative;
   		width:0px;
   	}
-  	header{
-  		position: relative;
-  		width:630px;
-  		right:120px;
-		
+  	#bryant{
+  		width:550px;
+  		float: left;
+		margin-left: 0px;
+		text-align: center;
 
   	}
+  	.list{
+  		position: absolute;
+  		top:80px;
+  		left:85px;
+  	}
   	.links{
-  		position: relative;
-  		left:-20px;
-  		top:-5px;
   		background: grey;
-  		padding-left:70px;
-  		padding-right: 70px;
+  		padding-left:40px;
+  		padding-right: 40px;
+  	}
+  	li{
+  		display: inline;
   	}
   
-  	section{
-		position: relative;
-		left:60px;
+  	.sec{
+  		margin-top: 60px;
 		width:80%;
 		height: 100%;		
 	}
-		
+		h1{
+			right: 200px;
+			}
+
+		hr{
+			width: 90%;
+		}
 	aside{
-		position: relative;
-		top:10px;
-		left:60px;
+		
 		width:80%;
+	}
+		h2{
+			text-align: center;
+
+		}
+
+		#hr2{
+			width: 90%
+		}
+	
+	.contact{
+		position: relative;
+		left:20px;
+		margin-right: 45px;
 	}
 
 	footer{
@@ -278,38 +302,24 @@ body{
 		top:10px;
 	}	
 
-		h1{
-			position: relative;
-			left:10px;
-			font-size: 44px;
-		}
-
-		hr{
-			width: 90%;
-		}
-		#hr2{
-			width: 90%
-		}
+		
+		
 		
 		/*bout pg */
 		
 		#me{
-			width: 90%;
-			margin-left: 375px;
-			height:400px;
-		}
+			max-width: 90%;
+			height: auto;
+			}
 		
 		#para{
-			position: relative;
-			left:20px;
-			top:10px;
 			width:90%;
+			text-align: center;
 		}
 
 		/* contact*/
 
 		.words{
-			position: relative;
 			left:0px;
 			}
 		.form{
@@ -319,71 +329,68 @@ body{
 		#message{
 		width:90%;
 		}
+
+		button{
+			margin-left: 175px;
+		}		
 		/* portfolio pg */
 		
-
 		#dunes{
-			position: relative;
-			left:0px;
+			margin-left: 35px;
+			text-align: center;
 		}
-
-		#miata{
-			position: relative;
-			left:0px;
-			top:-20px;
+		#dawson{
+			margin-left: 90px;
+			text-align: center;
+		}
+		.dunes{
+			top:450px;
+			
 
 		}
-		#gf{
-			position: relative;
-			left:0px;
-			top:-20px;
+		.miata{
+			top: 740px;
+		}
+		.gf{
+			top:1050px;
+		}
+		.dawson{
+			top:1350px;
 		}
 		
-		#dawson{
-			position: relative;
-			left:0px;
-			top:-20px;
-
-		}
-		h3{
-			position: relative;
-			right:-77px;
-			width: 350px;
-		}
 
 }
 
 @media screen and (max-width:768px) and (min-width:640px){
 /* page at 768px*/
 	#white{
-		height: 106px;
+		height: 100px;
 	}
-	header{
+	#bryant{
 		margin-left: 35px;
 		width:45%;
 		font-size: 40px;
 	}
-	.links{
-		position: relative;
-		left:240px;
-		top:-70px;
+	.list{
+		float: right;
+		margin-right: 20px;
 	}
-	section{
+
+	.sec{
+		margin-left: 35px;
 		width:90%;
-		position: relative;
-		left:37px;
-		bottom:30px;
 	}
 	aside{
-		position: relative;
-		left:37px;
-		top:0px;
+		float: right;
 		width:90%;
+		margin-right:40px;
 		}
 
 	h1{
-		position: relative;
-		right:30px;
+	
+	}
+	.contact{
+		margin-left: 90px;
 	}
 
 	hr{
@@ -391,73 +398,66 @@ body{
 	}
 	h2{
 		font-size: 20px;
+		text-align: center;
 	}
 	#hr2{
 		width: 90%;
 	}
+
 /*about pg*/
 
 		
 	#para{
-		position: relative;
-		left:30px;
-		
+		width:90%;
 	}
 	#me{
-		width:250px;
-		height: 250px;
-		float:right;
-		margin: 0px 0px 0px 0px
-	}
+		max-width:30%;
+		height: auto; 
+		}
 	
 	/*contact page*/
-	.words{
-		position: relative;
-		right:240px;
-	}
-
-	.form{
-		width:80%;
-	}
-
-	#message{
-		width:80%;
-
+	button{
+		margin-left:265px;
 	}
 	/* portfolio*/
 
-	img{
-		width:300px;
-		height:250px;
-
-	}
 	#dunes{
-		position: absolute;
-		left:30px;
+		min-width:200px;
+		height: auto;
+
 	}
-
+	.dunes{
+		width:240px;
+		top:320px;
+	}
 	#miata{
-		position: absolute;
-		left:320px;
-		
-
+		margin-top: 0px;
+		max-width: 300px;
+		height: auto;
+	}
+	
+	.miata{
+		top: 320px;
+		width:300px;
 	}
 	#gf{
-		position: absolute;
-		bottom:20px;
-
+		max-width: 300px;
 	}
-	
+	.gf{
+		top:550px;
+		width:300px;
+	}
+
 	#dawson{
-		position: absolute;
-		bottom: 20px;
-		left:320px;
+		padding-top:10px;
+		margin-left:70px;
+		max-width:200px;
 	}
-
-	h3{
-		position: relative;
-		left:0px;
-		width:301px;
+	.dawson{
+		top:550px;
+		width:200px;
+		height: 50px;
 	}
 }
-	
+
+@media screen and (max-width: 980px;) and (769px;)
